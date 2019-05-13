@@ -61,7 +61,7 @@
   "jest": {
     "preset": "react-native",
     "transform": {
-      "^.+\\.tsx?$": "babel-jest"
+      "^.+\\.tsx?$": "jest-expo"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
     "moduleFileExtensions": [
