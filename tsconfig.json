@@ -24,8 +24,6 @@
       "@app/config/*": ["src/config/*"],
       "@app/network": ["src/network"],
       "@app/network/*": ["src/network/*"],
-      "@app/styled": ["src/styled"],
-      "@app/styled/*": ["src/styled/*"],
       "@app/stores": ["src/stores"],
       "@app/stores/*": ["src/stores/*"],
       "@app/themes": ["src/themes"]
