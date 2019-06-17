@@ -3,6 +3,7 @@
   "rules": {
     "no-unused-variable": true,
     "no-submodule-imports": false,
-    "no-implicit-dependencies": [true, ["@app"]]
+    "no-implicit-dependencies": [true, ["@app"]],
+    "no-unused-expression": [true, "allow-fast-null-checks"]
   }
 }
