@@ -1,5 +1,5 @@
 import { defaultTheme } from '@app/themes';
-import { Icon } from 'expo';
+import * as Icon from '@expo/vector-icons';
 import React from 'react';
 
 interface ITabBar {

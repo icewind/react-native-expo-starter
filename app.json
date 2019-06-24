@@ -3,7 +3,7 @@
     "name": "React Native Starter Kit",
     "slug": "Awesome",
     "privacy": "unlisted",
-    "sdkVersion": "32.0.0",
+    "sdkVersion": "33.0.0",
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,6 +18,7 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
+      "buildNumber": "1.0.1",
       "supportsTablet": true
     },
     "hooks": {
