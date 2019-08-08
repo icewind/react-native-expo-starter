@@ -3,9 +3,7 @@ import { inject, observer } from 'mobx-react';
 import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 
-@inject('store')
-@observer
-export default class HomeScreen extends React.Component<IConnectedComponent> {
+class HomeScreen extends React.Component<IConnectedComponent> {
   public static navigationOptions = {
     header: null,
   };
@@ -31,3 +29,5 @@ export default class HomeScreen extends React.Component<IConnectedComponent> {
     );
   }
 }
+
+export default inject('store')(observer(HomeScreen));

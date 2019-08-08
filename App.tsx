@@ -3,7 +3,7 @@ import { AppNavigator } from '@app/navigation';
 import { ApplicationStore } from '@app/stores';
 import { Provider } from 'mobx-react';
 import React from 'react';
-import { Platform, StatusBar, View } from 'react-native';
+import { Platform, StatusBar } from 'react-native';
 import Sentry from 'sentry-expo';
 
 Sentry.config(applicationConfig.sentryDSN).install();
